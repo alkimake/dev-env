@@ -1,1 +1,12 @@
-.direnv/
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Direnv
+.direnv
+
+# Kubernetes
+.kubeconfig
+.kubeconfig.*
+!.kubeconfig.example
